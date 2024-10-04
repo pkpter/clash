@@ -2340,15 +2340,6 @@ proxies:
   skip-cert-verify: true
   alterId: 0
   cipher: auto
-- name: 伊朗 002
-  type: vmess
-  network: tcp
-  server: prom2.fast-film.ir
-  port: 80
-  uuid: 99950228-b709-4eea-b186-d2712e3af45a
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
 - name: 加拿大 049
   type: vless
   network: httpupgrade
@@ -3345,7 +3336,6 @@ proxy-groups:
   - 美国 018
   - 加拿大 047
   - 加拿大 048
-  - 伊朗 002
   - 加拿大 049
   - 加拿大 051
   - 加拿大 052
